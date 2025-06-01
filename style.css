@@ -27,8 +27,6 @@ a {
 .inter {
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>;
-  font-style: normal; */
 }
 
 .body {
@@ -38,7 +36,7 @@ a {
   flex-direction: column;
   align-items: center;
   color: var(--white-color);
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 header {
@@ -81,7 +79,6 @@ main {
 @media screen and (max-width: 768px) {
   .body {
     padding: 20px 32px;
-
   }
 
   .image-container {
@@ -108,5 +105,29 @@ main {
 
   .descr {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .body {
+    padding: 40px;
+  }
+
+  .image-container {
+    width: 514px;
+    height: 522px;
+    margin-bottom: 42px;
+  }
+
+  .header {
+    font-size: 80px;
+  }
+
+  .descr {
+    font-size: 24px;
+  }
+
+  .start-button {
+    font-size: 24px;
   }
 }
